@@ -36,6 +36,7 @@ else if(p < 5000 || r < 1 || t < 6)
 }
 */
 
+// compound interest
 
 let p = 5000;
 let r = 0.05;
