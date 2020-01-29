@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.all {
+    width: 100%;
+    float:left;
+    padding: 10px;
+    margin: 0;
+    /* height: 500px; */
+}
+
+#right{
+    background-color: white;
+    width: 50vw;
+    float: right;
+    height: 92vh;
+    /* position: relative; */
+    /* bottom: -30vh; */
+    /* left: 10vmin; */
+    z-index: 1;
+    position: absolute;
+    left: 50vw;
+    padding-left: 10%;
+}
+
+.fa-twitter{
+    color: #1da1f2;
+    font-size: 13vmin;
+}
+
+#left{
+    background-color: #1da1f2;
+    width: 50vw;
+    float: left;
+    color: white;
+    height: 92vh;
+    /* box-sizing: border-box; */
+}
+.in{
+    width: 60%;
+    margin-left: 20%;
+    display: block;
+    
+}
+#pdiv{
+margin-top: 25%;
+margin-left: 25%;
+font-size: 3vmin;
+font-weight: 500;
+}
+#divr{
+margin-top: 20px;
+margin-left: 0;
+font-weight: bold;
+font-size: 3vmin;
+}
+.footer{
+
+   height: 20px;
+  
+
+}
+.lifooter{
+    list-style-position: initial;
+    list-style: none;
+    margin-left: 10px;
+    color: grey;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    text-decoration: none;
+    float: left;
+    align-self: center;
+    font-size: 10px;
+    font-weight: 60;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a:link{
+    color: gray;
+}
+#btn{
+    margin-left: 50%;
+    /* height: 6vh; */
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+}
+#signup{
+    margin-left: 0;
+    width: 60%;
+    border-radius: 100px;
+    height: 6vh;
+    color: white;
+    border: 1px solid #1da1f2;
+    background-color: #1da1f2;
+}
+#login{
+    margin-left: 0;
+    width: 60%;
+    border-radius: 100px;
+    height: 6vh;
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    background-color: white;
+    }
+h1{
+    font-size: 27px;
+    line-height: 32px;
+}
+#join {
+    color: #14171a;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px auto;
+    /* margin-top: 48px; */
+}
